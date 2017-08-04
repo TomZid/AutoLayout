@@ -16,3 +16,7 @@
 NSLayoutConstraints如下：
 
 ![](https://image.ibb.co/kDH6XF/Screen_Shot_2017_08_04_at_2_34_59_PM.png)
+
+效果如图：
+
+![效果如图](http://image.ibb.co/duHRzv/recod.gif)
