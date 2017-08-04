@@ -4,10 +4,10 @@
 因为 UIScrollView 本身的 leading/trailing/top/bottom 变得不好用，所以我习惯的做法是在 UIScrollView 和它原来的 subviews 之间增加一个 content view，这样做的好处有：
 
 > * 不会在 storyboard 里留下 error/warning
-* 为 subview 提供 leading/trailing/top/bottom，方便 subview 的布局
-* 通过调整 content view 的 size（可以是 constraint 的 IBOutlet）来调整 contentSize
-* 不需要 hard code 与屏幕尺寸相关的代码
-* 更好地支持 rotation
+> * 为 subview 提供 leading/trailing/top/bottom，方便 subview 的布局
+> * 通过调整 content view 的 size（可以是 constraint 的 IBOutlet）来调整 contentSize
+> * 不需要 hard code 与屏幕尺寸相关的代码
+> * 更好地支持 rotation
 
 为了实现在UIScrollView子视图Label根据内容自动撑满并且可滚动，按照上文的思路实现一个间的DEMO。试图结构如下：
 
