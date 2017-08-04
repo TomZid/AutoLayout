@@ -1,4 +1,5 @@
-#UIScrollView 和 Auto Layout 
+
+# UIScrollView 和 Auto Layout 
 >  UIScrollView 在 Auto Layout 是一个很特殊的 view，对于 UIScrollView 的 subview 来说，它的 leading/trailing/top/bottom space 是相对于 UIScrollView 的 contentSize 而不是 bounds 来确定的，所以当你尝试用 UIScrollView 和它 subview 的 leading/trailing/top/bottom 来互相决定大小的时候，就会出现「Has ambiguous scrollable content width/height」的 warning。 
 因为 UIScrollView 本身的 leading/trailing/top/bottom 变得不好用，所以我习惯的做法是在 UIScrollView 和它原来的 subviews 之间增加一个 content view，这样做的好处有：
 
