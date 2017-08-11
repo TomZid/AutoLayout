@@ -9,7 +9,7 @@
 > * 不需要 hard code 与屏幕尺寸相关的代码
 > * 更好地支持 rotation
 
-为了实现在UIScrollView子视图Label根据内容自动撑满并且可滚动，按照上文的思路实现一个间的DEMO。试图结构如下：
+为了实现在UIScrollView子视图Label根据内容自动撑满并且可滚动，按照上文的思路实现一个DEMO。视图结构如下：
 
 > ***UIView --> UIScrollView --> UIView -->UILabel***
 
